@@ -1,0 +1,8 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <body>
+        <referenceContainer name="top-nav">
+            <block  name="tbbform.session" class="Tbb\Session\Block\Customer" template="Tbb_Session::session.phtml" />
+        </referenceContainer>
+    </body>
+</page>
